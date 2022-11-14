@@ -1,0 +1,85 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+   
+
+  <div class="container w-75 mx-auto  mt-5  shadow-lg   ">
+
+
+    <h1 class=" text-center">CRUD OPERATION WITH NODE.JS API</h1>
+
+    <div class="  row">
+      <div class=" col-md-12">
+        <label class=" pb-2 fw-bold" for="nameInput"> Product name</label>
+        <input id="nameInput" type="text" class=" form-control" />
+
+        <label class=" pb-2 fw-bold" for="priceInput"> Product price</label>
+        <input id="priceInput" type="number" class=" form-control" />
+
+        <label class=" pb-2 fw-bold" for="descriptionInput"> Product description</label>
+        <input id="descInput" type="text" class=" form-control" />
+
+        <button onclick="input()" id="add" class=" add    w-100 mt-2"> Add <i
+            class="fa-solid iconAdd fa-arrow-down"></i></button>
+        <button onclick="update()" id="editInput" class=" add    w-100 mt-2"> Edit <i
+            class="fa-solid iconAdd fa-arrow-down"></i></button>
+
+      </div>
+
+
+
+    </div>
+
+    <div>
+    </div>
+  </div>
+  <div class="container w-75 mx-auto mt-5 shadow-lg mb-4 ">
+    <table class="  text-center ms-2 table table-bordered border-primary">
+      <thead class=" thead-dark">
+        <th>NAME</th>
+        <th>Price</th>
+        <th>DESCRIPTION</th>
+        <th>ORDERS</th>
+      </thead>
+      <tbody id="tableRow">
+
+        <!-- <tr >
+    <td></td>
+    <td> </td>
+    <td> </td>
+    <td><button onclick="SHowModel()" class=" btnIcon me-2 bg-transparent"><i class="fa-solid  delete fa-trash-can"></i></button>
+    <button class="  btnIcon bg-transparent"><i class="fa-solid update fa-pen-to-square"></i></button>
+    </td>
+  </tr> -->
+
+
+      </tbody>
+    </table>
+
+  </div>
+  <!-- <div id="model" >
+<div class=" h-25 p-5 bg-white">
+<h2> Are you sure you want to delete this product? </h2>
+<div class=" d-flex justify-content-center">
+<button onclick="deleteProd()"  class=" me-3 btn btn-outline-danger">Yes</button>
+<button onclick="hideModel()" class=" btn  btn-outline-secondary">No</button>
+</div>
+</div>
+</div> -->
+
+
+  <script src="js/all.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

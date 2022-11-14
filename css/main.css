@@ -1,0 +1,81 @@
+body {
+    background-color:#71efde ;
+     position: relative;
+   }
+   .container{
+       background-color:#88eadd;
+       padding: 15px;
+       border: solid white  2px;
+       border-radius: 20px;
+       box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+       
+   }
+   input{
+       background-color: #6db9af !important;
+       color: white !important;
+   }
+   .add{
+       background-color: #36b18c;
+       border:  solid green 1px;
+       padding: 10px ;
+       transition: all 0.5s;
+    }
+    .add:hover{
+       background-color: #51b9b1;
+       border:  none;
+   
+    }
+    .add:hover .iconAdd{
+       color: green !important;
+       font-size: 2rem !important;
+       margin-left: 20px !important;
+    }
+    .iconAdd {
+       transition: all 0.5s;
+       font-size: 1.5rem;
+      margin-left: 10px;
+       color: transparent !important;
+    }
+    .trData{
+       height: 50px !important;
+       border: solid white 1px;
+       border-radius: 50% !important ;
+       margin-bottom: 10px;
+       overflow-y: scroll;
+    }
+    .btnIcon{
+       border: none;
+    }
+    .delete , .update{
+       font-size: 1.2rem;
+        color:#213b54;
+        transition: all 0.6s;
+    }
+    .delete:hover{
+   color: red;
+       transform: rotate(-90deg);
+    }
+    .update:hover{
+       transform: rotate(-90deg);
+   color: #2f8bb7;
+    }
+   
+   
+    /* #model{
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       display: none;
+       justify-content: center;
+       align-items: center;
+    } */
+ 
+#editInput{
+      display: none ;
+ }
+ 
+ button , i {
+   cursor: pointer;
+ }
